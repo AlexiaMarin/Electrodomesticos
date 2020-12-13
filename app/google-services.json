@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1008656290112",
+    "project_id": "ventas-bb54f",
+    "storage_bucket": "ventas-bb54f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008656290112:android:50330c13153a5d08166aa5",
+        "android_client_info": {
+          "package_name": "com.example.electrodomesticos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008656290112-imjksanmgrmkdf9agugjlpnju1not2mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.electrodomesticos",
+            "certificate_hash": "7e3e781304e64350d6eaa7801362d004fb142717"
+          }
+        },
+        {
+          "client_id": "1008656290112-a77so25qfloj80r73sdjdnfrnqsj0k0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNlDrxHDpR-GLUNPeRr2bxE4xH9YEYo0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008656290112-a77so25qfloj80r73sdjdnfrnqsj0k0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

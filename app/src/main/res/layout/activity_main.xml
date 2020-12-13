@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/etBrand"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Marca"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etInches"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/etBrand"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="-11dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Pulgadas"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etInches"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Color"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etModel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etColor"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="-6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Modelo"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etVoltage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etOs"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Voltaje"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etWeight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etModel"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Peso"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etMeasure"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etWeight"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Medidas"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+
+                        <EditText
+                            android:id="@+id/etPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etMeasure"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Precio"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etOs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etPrice"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Sistema operativo"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etConnectortype"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etVoltage"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Tipo de conector"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etScreentype"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etConnectortype"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Tipo de pantalla"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etMaker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etScreentype"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Fabricante"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etResolution"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etMaker"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Resolución"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@+id/etAudio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etResolution"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Audio"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@id/etAccessory"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etAudio"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Accesorios"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <EditText
+                            android:id="@id/etSerie"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etAccessory"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="20dp"
+                            android:hint="Serie"
+                            android:inputType="textCapWords"
+                            android:padding="10dp" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabGuardar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/ic_save"
+                            />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabListar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="100dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/ic_list"
+                            />
+
+                </LinearLayout>
+        </ScrollView>
+</RelativeLayout>
